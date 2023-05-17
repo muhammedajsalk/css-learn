@@ -1,0 +1,36 @@
+#image{
+	padding: 100px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+#image img{
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+}
+#image div.content{
+	width: 80%;
+	margin: 0 auto;
+}
+#image div.content h1, #image div.content h2{
+ font-size: 24px;
+ margin bottom: 20px;
+ line-height: 1.5em;
+}
+
+#image div.content p {
+	font-size: 15px;
+	color: #666;
+	margin-bottom: 15px;
+	line-height:1.7em ;
+}
+#image div.content b{
+	font-weight: bold;
+	color: #222 ;
+}
+#image div.content i{
+	color: #222;
+}
+#image div.content i b{
+	font-weight: bold;
+}

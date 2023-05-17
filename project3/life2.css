@@ -1,0 +1,23 @@
+body{
+	background-image: url("image/life.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  
+}
+#top{
+    width: 50%;
+    margin:0 auto;  
+    padding-bottom:270px ;
+}
+h2{
+	font-size: 24px;
+ margin bottom: 20px;
+ line-height: 1.5em;
+}
+p{
+  font-size: 15px;
+  line-height:1.3em ;
+
+}

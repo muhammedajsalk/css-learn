@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+}
+div.contan{
+	background-color: black;
+}
+div.iteam{
+	height: 200px;
+	width: 20%;
+	background-color: blueviolet;
+	border: 1px solid white;
+	float: left;
+}
+br.clear{
+	clear: both;
+	line-height: 0;
+}

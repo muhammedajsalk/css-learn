@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+#gallery{
+ padding: 80px 40px;
+}
+#gallery section.wrapper{
+
+}
+#gallery ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+#gallery ul li{
+width:32% ;
+}
+#gallery ul li:nth-child(4){
+	margin-top: 30px;
+}
+#gallery ul li:nth-child(5){
+	margin-top: 30px;
+}
+#gallery ul li:nth-child(6){
+margin-top: 30px;
+}
+#gallery ul li img{
+display: block;
+width: 100%;
+height: 400px;
+}
+#practice{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+#practice div{
+ width: 300px;
+ height: 200px;
+ background: red;
+ animation-name: bowbow;
+ animation-duration: 2s;
+ animation-timing-function: ease-in-out;
+ animation-delay: 400ms;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-fill-mode: mode;
+ animation-play-state: playing;
+}
+@keyframes bowbow{
+	0%{
+		transform: scale(0.5);
+		
+	}
+	60%{
+		transform: scale(2);
+	
+	}
+	100%{
+		transform: scale(1.5);
+	}
+}
+
+@media all and (max-width: 980px){
+	#gallery ul li{
+		width: 48%;
+	}
+	#gallery ul li:nth-child(3){
+	margin-top: 30px;
+    }
+}
+@media all and (max-width: 768px){
+	#gallery ul li{
+		width: 96%;
+	}
+	#gallery ul li:nth-child(2){
+	margin-top: 30px;
+    }
+}

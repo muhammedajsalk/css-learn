@@ -1,0 +1,131 @@
+
+h3{
+	color: blueviolet;
+	font-size: 70px;
+}
+
+h3.one{
+	color: gold ;
+	font-size: 80px ;
+}
+
+#family1{
+	color: rosybrown ;
+	font-size: 100px;
+}
+section.container h1.one{
+	color: orangered;
+	font-size: 50px;
+
+}
+
+#container h1.one{
+	color: gold;
+	font-size: 60px;
+}
+
+h5,h6{
+	color: orange;
+
+}
+
+h1.muhammed{
+	color: rgb(255, 0, 0);
+}
+
+h2.muhammed{
+	color: #ff00ff;
+}
+
+h1.ajsal{
+	color: rgba(250, 150, 0, 0.5);
+}
+
+h1.background{
+	background-color: #00f;
+}
+ #div1{
+ 	height: 500px;
+ 	background: url("images/village.jpg") no-repeat center center;
+ 	background-size: cover;
+ }
+ p{
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	font-style: italic;
+ 	opacity: .5;
+ 	}
+
+#div{
+	max-width: 500px;
+	min-width: 100px;
+	width: 1200px;
+	height: 100px;
+	max-height: 500px;
+	min-height: 300px;
+	background: #000;
+}
+
+#padding{
+	width: 100px;
+	height: 100px;
+	background: green;
+	padding: 20px 10px 30px 10px;
+	box-sizing: border-box;
+}
+
+p.padding{
+	color: #fff;
+}
+
+#margin{
+	height: 200px;
+	background: #000;
+}
+p.margin{
+	color: white;
+	margin-top:30px ;
+
+}
+
+span{
+	margin: 100px;
+
+}
+#border{
+	height: 200px;
+    background: red;
+    padding-top: 30px;
+    width: 500px;
+    padding: 20px;
+    border: 10px solid #000;
+    box-sizing: border-box;
+}
+p.border{
+	color: #fff;
+
+}
+
+#outline{
+	height: 200px;
+    background: red;
+    padding-top: 30px;
+    width: 500px;
+    padding: 20px;
+    border: 10px solid #000;
+    box-sizing: border-box;
+    outline: 10px solid;
+}
+p.outline{
+	color: #fff;
+
+}
+
+#radius{
+	text-align: center;
+}
+
+img{
+	border-radius: 250px 50px 30px 50px;
+}
+

@@ -1,0 +1,36 @@
+
+
+header{
+	height: 100px;
+	padding: 25px 0;
+	text-align: center;
+}
+header.img{
+	width: 100px;
+	display: inline-block;
+}
+#top{
+	
+	height: 910px;
+	background: url(images/bag.jpg) no-repeat ;
+	background-size: cover ;
+	background-position: center ;
+      height: calc(100vh - 100px);
+      text-align: center;
+      padding-top: 200px;
+}
+top.h1{
+ font-size: 64px;
+ font-weight: bold;
+ margin-bottom: 20px;
+ text-transform: uppercase;
+}
+top.h2{
+ 
+ font-weight: bold;
+ margin-bottom: 20px;
+ text-transform: uppercase;
+}
+top.p{
+ font-size: 22px;
+}
